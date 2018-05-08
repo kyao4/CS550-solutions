@@ -1,0 +1,26 @@
+23:01:47.674 [main] INFO  com.iit.cs550.pa1.IndexServerImpl - registered remote object IndexServer with name indexService on RMIRegistry.
+23:15:13.466 [main] INFO  com.iit.cs550.pa1.IndexServerImpl - registered remote object IndexServer with name indexService on RMIRegistry.
+23:15:39.947 [main] INFO  com.iit.cs550.pa1.IndexServerImpl - registered remote object IndexServer with name indexService on RMIRegistry.
+23:16:09.604 [RMI TCP Connection(2)-192.168.99.1] INFO  com.iit.cs550.pa1.IndexServerImpl - called registry with peerId: %s, filename:%s
+23:21:07.528 [RMI TCP Connection(4)-192.168.99.1] INFO  com.iit.cs550.pa1.IndexServerImpl - called registry with peerId: %s, filename:%s
+23:27:38.788 [RMI TCP Connection(8)-192.168.99.1] INFO  com.iit.cs550.pa1.IndexServerImpl - called registry with peerId: %s, filename:%s
+23:27:46.104 [RMI TCP Connection(8)-192.168.99.1] INFO  com.iit.cs550.pa1.IndexServerImpl - called search with filename: %s
+23:29:32.352 [main] INFO  com.iit.cs550.pa1.IndexServerImpl - registered remote object IndexServer with name indexService on RMIRegistry.
+23:29:43.669 [main] INFO  com.iit.cs550.pa1.IndexServerImpl - registered remote object IndexServer with name indexService on RMIRegistry.
+23:29:57.200 [RMI TCP Connection(2)-192.168.99.1] INFO  com.iit.cs550.pa1.IndexServerImpl - called registry with peerId: localhost:8888:client1, filename:foo
+23:31:58.167 [RMI TCP Connection(4)-192.168.99.1] INFO  com.iit.cs550.pa1.IndexServerImpl - called registry with peerId: localhost:8888:client1, filename:foo
+23:33:03.070 [RMI TCP Connection(6)-192.168.99.1] INFO  com.iit.cs550.pa1.IndexServerImpl - called search with filename: foo
+23:35:13.357 [RMI TCP Connection(8)-192.168.99.1] INFO  com.iit.cs550.pa1.IndexServerImpl - called registry with peerId: localhost:8888:client1, filename:foo
+23:35:28.410 [RMI TCP Connection(9)-192.168.99.1] INFO  com.iit.cs550.pa1.IndexServerImpl - called search with filename: foo
+23:41:33.265 [RMI TCP Connection(13)-192.168.99.1] INFO  com.iit.cs550.pa1.IndexServerImpl - called registry with peerId: localhost:8888:client1, filename:foo
+23:41:59.673 [RMI TCP Connection(14)-192.168.99.1] INFO  com.iit.cs550.pa1.IndexServerImpl - called search with filename: fofoo
+23:42:34.791 [RMI TCP Connection(15)-192.168.99.1] INFO  com.iit.cs550.pa1.IndexServerImpl - called search with filename: foo
+23:46:09.210 [RMI TCP Connection(17)-192.168.99.1] INFO  com.iit.cs550.pa1.IndexServerImpl - called registry with peerId: localhost:8888:client1, filename:foo
+23:46:29.309 [RMI TCP Connection(18)-192.168.99.1] INFO  com.iit.cs550.pa1.IndexServerImpl - called search with filename: foo
+22:46:38.272 [main] INFO  com.iit.cs550.pa1.IndexServerImpl - registered remote object IndexServer with name indexService on RMIRegistry.
+22:46:46.214 [main] INFO  com.iit.cs550.pa1.IndexServerImpl - registered remote object IndexServer with name indexService on RMIRegistry.
+22:47:01.403 [main] INFO  com.iit.cs550.pa1.IndexServerImpl - registered remote object IndexServer with name indexService on RMIRegistry.
+22:50:03.243 [main] INFO  com.iit.cs550.pa1.IndexServerImpl - registered remote object IndexServer with name indexService on RMIRegistry.
+22:50:14.236 [RMI TCP Connection(2)-192.168.99.1] INFO  com.iit.cs550.pa1.IndexServerImpl - called registry with peerId: localhost:8888:client1, filename:foo
+22:50:30.848 [RMI TCP Connection(3)-192.168.99.1] INFO  com.iit.cs550.pa1.IndexServerImpl - called search with filename: foo
+22:50:55.325 [RMI TCP Connection(3)-192.168.99.1] INFO  com.iit.cs550.pa1.IndexServerImpl - called search with filename: foo
