@@ -25,7 +25,6 @@ import java.util.Scanner;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
-import javax.sound.midi.MidiDevice.Info;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

@@ -10,6 +10,9 @@
 	    <File name="serverFile" fileName="logs/server.log">
 	      	<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />  
 	    </File>
+	   	<File name="peerFile" fileName="logs/peer.log">
+	      	<PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />  
+	    </File>
     </Appenders>  
     <Loggers>  
     	<Logger name="com.iit.cs550.pa1.Client" level="info" additivity="false">  
@@ -19,6 +22,10 @@
     	<Logger name="com.iit.cs550.pa1.IndexServerImpl" level="info" additivity="false">  
             <AppenderRef ref="Console" /> 
             <AppenderRef ref="serverFile" /> 
+        </Logger> 
+        <Logger name="com.iit.cs550.pa2.Peer" level="info" additivity="false">  
+            <AppenderRef ref="Console" /> 
+            <AppenderRef ref="peerFile" /> 
         </Logger>  
         <Root level="error">  
             <AppenderRef ref="Console" />  
