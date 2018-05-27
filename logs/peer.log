@@ -1,23 +1,270 @@
-18:11:57.826 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888
-18:22:35.870 [main] INFO  com.iit.cs550.pa2.Peer - localhost
-18:22:35.870 [main] INFO  com.iit.cs550.pa2.Peer - localhost
-18:22:35.870 [main] INFO  com.iit.cs550.pa2.Peer - localhost
-18:22:35.870 [main] INFO  com.iit.cs550.pa2.Peer - localhost
-18:22:35.870 [main] INFO  com.iit.cs550.pa2.Peer - localhost
-18:22:35.870 [main] INFO  com.iit.cs550.pa2.Peer - localhost
-18:22:35.870 [main] INFO  com.iit.cs550.pa2.Peer - localhost
-18:22:35.870 [main] INFO  com.iit.cs550.pa2.Peer - localhost
-18:22:35.870 [main] INFO  com.iit.cs550.pa2.Peer - localhost
-18:22:35.870 [main] INFO  com.iit.cs550.pa2.Peer - localhost
-18:22:35.870 [main] INFO  com.iit.cs550.pa2.Peer - localhost
-18:23:12.785 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888
-18:23:12.788 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8889
-18:23:12.788 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8890
-18:23:12.788 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8891
-18:23:12.788 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8892
-18:23:12.788 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8893
-18:23:12.788 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8894
-18:23:12.789 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8895
-18:23:12.789 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8896
-18:23:12.789 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8897
-18:23:12.789 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8898
+2018-05-27 22:16:28,048 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8889 as neighbor
+2018-05-27 22:16:28,054 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8890 as neighbor
+2018-05-27 22:16:28,054 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8891 as neighbor
+2018-05-27 22:16:28,054 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8892 as neighbor
+2018-05-27 22:16:28,055 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8893 as neighbor
+2018-05-27 22:16:28,055 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8894 as neighbor
+2018-05-27 22:16:28,055 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8895 as neighbor
+2018-05-27 22:16:28,055 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8896 as neighbor
+2018-05-27 22:16:28,055 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8897 as neighbor
+2018-05-27 22:16:28,056 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8898 as neighbor
+2018-05-27 22:16:28,056 [main] INFO  com.iit.cs550.pa2.Peer - peer dir: D:\Users\kyao4\workspace\cs550\pa2\peer8888 
+working dir: D:\Users\kyao4\workspace\cs550
+2018-05-27 22:16:28,057 [main] INFO  com.iit.cs550.pa2.Peer - put file foo into file list.
+2018-05-27 22:16:28,135 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8888 listening to port 8888 for peer TCP connection
+2018-05-27 22:16:28,137 [main] INFO  com.iit.cs550.pa2.Peer - Please enter the file you want to download:
+2018-05-27 22:16:28,139 [Thread-2] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8888 listening to port 8908 for file TCP connection
+2018-05-27 22:16:37,746 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8889 added localhost:8888 as neighbor
+2018-05-27 22:16:37,752 [main] INFO  com.iit.cs550.pa2.Peer - peer dir: D:\Users\kyao4\workspace\cs550\pa2\peer8889 
+working dir: D:\Users\kyao4\workspace\cs550
+2018-05-27 22:16:37,753 [main] INFO  com.iit.cs550.pa2.Peer - put file foofoo into file list.
+2018-05-27 22:16:37,822 [main] INFO  com.iit.cs550.pa2.Peer - Please enter the file you want to download:
+2018-05-27 22:16:37,824 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8889 listening to port 8889 for peer TCP connection
+2018-05-27 22:16:37,824 [Thread-2] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8889 listening to port 8909 for file TCP connection
+2018-05-27 22:16:44,993 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8889
+2018-05-27 22:16:44,993 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Instantiate PeerServer class, client IP and port 127.0.0.1:12229
+2018-05-27 22:16:44,995 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - read new line from socket:ea9a03c3-f570-428a-931a-49a65277fdc2:q:8888:3
+2018-05-27 22:16:44,996 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - messageid ea9a03c3-f570-428a-931a-49a65277fdc2 upstream 127.0.0.1:8888
+2018-05-27 22:16:44,996 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - received query message
+2018-05-27 22:16:44,996 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - found file, send queryhit message
+2018-05-27 22:16:45,002 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:16:45,003 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Instantiate PeerServer class, client IP and port 127.0.0.1:12231
+2018-05-27 22:16:45,005 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Instantiate PeerServer class, client IP and port 127.0.0.1:12232
+2018-05-27 22:16:45,004 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - read new line from socket:ea9a03c3-f570-428a-931a-49a65277fdc2:h:8889:6
+2018-05-27 22:16:45,005 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - establish TCP connection to target peer.
+2018-05-27 22:16:45,005 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - read new line from socket:ea9a03c3-f570-428a-931a-49a65277fdc2:q:8888:2
+2018-05-27 22:16:45,006 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - messageid ea9a03c3-f570-428a-931a-49a65277fdc2 upstream 127.0.0.1:8888
+2018-05-27 22:16:45,007 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - received query message
+2018-05-27 22:16:45,007 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:16:45,007 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - receiving file and writing file to path D:\Users\kyao4\workspace\cs550/pa2/peer12233foofoo
+2018-05-27 22:16:45,008 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:16:45,009 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Instantiate PeerServer class, client IP and port 127.0.0.1:12234
+2018-05-27 22:16:45,010 [pool-3-thread-1] INFO  com.iit.cs550.pa2.Peer - Received file TCP connection
+2018-05-27 22:16:45,012 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - read new line from socket:ea9a03c3-f570-428a-931a-49a65277fdc2:q:8888:1
+2018-05-27 22:16:45,012 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - Found query meessge with ID ea9a03c3-f570-428a-931a-49a65277fdc2, drop message.
+2018-05-27 22:16:45,013 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - finished download file from peer 127.0.0.1:8909
+2018-05-27 22:16:45,997 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8890
+2018-05-27 22:16:46,012 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:16:46,999 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8891
+2018-05-27 22:16:47,015 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:16:48,002 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8892
+2018-05-27 22:16:48,016 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:16:49,004 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8893
+2018-05-27 22:16:49,018 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:16:50,006 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8894
+2018-05-27 22:16:50,020 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:16:51,007 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8895
+2018-05-27 22:16:51,023 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:16:52,009 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8896
+2018-05-27 22:16:52,026 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:16:53,010 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8897
+2018-05-27 22:16:53,029 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:16:54,011 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8898
+2018-05-27 22:16:54,011 [main] INFO  com.iit.cs550.pa2.Peer - Please enter the file you want to download:
+2018-05-27 22:18:23,546 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8889 as neighbor
+2018-05-27 22:18:23,549 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8890 as neighbor
+2018-05-27 22:18:23,549 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8891 as neighbor
+2018-05-27 22:18:23,549 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8892 as neighbor
+2018-05-27 22:18:23,550 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8893 as neighbor
+2018-05-27 22:18:23,550 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8894 as neighbor
+2018-05-27 22:18:23,550 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8895 as neighbor
+2018-05-27 22:18:23,550 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8896 as neighbor
+2018-05-27 22:18:23,550 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8897 as neighbor
+2018-05-27 22:18:23,550 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8898 as neighbor
+2018-05-27 22:18:23,551 [main] INFO  com.iit.cs550.pa2.Peer - peer dir: D:\Users\kyao4\workspace\cs550\pa2\peer8888 
+working dir: D:\Users\kyao4\workspace\cs550
+2018-05-27 22:18:23,551 [main] INFO  com.iit.cs550.pa2.Peer - put file foo into file list.
+2018-05-27 22:18:23,611 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8888 listening to port 8888 for peer TCP connection
+2018-05-27 22:18:23,611 [Thread-2] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8888 listening to port 8908 for file TCP connection
+2018-05-27 22:18:23,613 [main] INFO  com.iit.cs550.pa2.Peer - Please enter the file you want to download:
+2018-05-27 22:18:31,435 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8889 added localhost:8888 as neighbor
+2018-05-27 22:18:31,438 [main] INFO  com.iit.cs550.pa2.Peer - peer dir: D:\Users\kyao4\workspace\cs550\pa2\peer8889 
+working dir: D:\Users\kyao4\workspace\cs550
+2018-05-27 22:18:31,438 [main] INFO  com.iit.cs550.pa2.Peer - put file foofoo into file list.
+2018-05-27 22:18:31,492 [main] INFO  com.iit.cs550.pa2.Peer - Please enter the file you want to download:
+2018-05-27 22:18:31,492 [Thread-2] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8889 listening to port 8909 for file TCP connection
+2018-05-27 22:18:31,492 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8889 listening to port 8889 for peer TCP connection
+2018-05-27 22:18:36,074 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8889
+2018-05-27 22:18:36,074 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Instantiate PeerServer class, client IP and port 127.0.0.1:12387
+2018-05-27 22:18:36,076 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - read new line from socket:f03c6872-b2af-45ce-8d03-633991aee4e0:q:8888:3
+2018-05-27 22:18:36,076 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - messageid f03c6872-b2af-45ce-8d03-633991aee4e0 upstream 127.0.0.1:8888
+2018-05-27 22:18:36,077 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - received query message
+2018-05-27 22:18:36,077 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - found file, send queryhit message
+2018-05-27 22:18:36,084 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:18:36,085 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Instantiate PeerServer class, client IP and port 127.0.0.1:12389
+2018-05-27 22:18:36,087 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Instantiate PeerServer class, client IP and port 127.0.0.1:12390
+2018-05-27 22:18:36,087 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - read new line from socket:f03c6872-b2af-45ce-8d03-633991aee4e0:h:8889:6
+2018-05-27 22:18:36,089 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - establish TCP connection to target peer.
+2018-05-27 22:18:36,088 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - read new line from socket:f03c6872-b2af-45ce-8d03-633991aee4e0:q:8888:2
+2018-05-27 22:18:36,089 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - messageid f03c6872-b2af-45ce-8d03-633991aee4e0 upstream 127.0.0.1:8888
+2018-05-27 22:18:36,090 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - received query message
+2018-05-27 22:18:36,090 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:18:36,091 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - receiving file and writing file to path D:\Users\kyao4\workspace\cs550/pa2/peer8888foofoo
+2018-05-27 22:18:36,091 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:18:36,092 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Instantiate PeerServer class, client IP and port 127.0.0.1:12392
+2018-05-27 22:18:36,092 [pool-3-thread-1] INFO  com.iit.cs550.pa2.Peer - Received file TCP connection
+2018-05-27 22:18:36,093 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - read new line from socket:f03c6872-b2af-45ce-8d03-633991aee4e0:q:8888:1
+2018-05-27 22:18:36,093 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - Found query meessge with ID f03c6872-b2af-45ce-8d03-633991aee4e0, drop message.
+2018-05-27 22:18:36,094 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - finished download file from peer 127.0.0.1:8909
+2018-05-27 22:18:37,076 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8890
+2018-05-27 22:18:37,094 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:18:38,079 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8891
+2018-05-27 22:18:38,096 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:18:39,080 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8892
+2018-05-27 22:18:39,099 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:18:40,082 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8893
+2018-05-27 22:18:40,101 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:18:41,085 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8894
+2018-05-27 22:18:41,103 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:18:42,087 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8895
+2018-05-27 22:18:42,104 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:18:43,091 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8896
+2018-05-27 22:18:43,108 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:18:44,094 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8897
+2018-05-27 22:18:44,114 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:18:45,096 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8898
+2018-05-27 22:18:45,096 [main] INFO  com.iit.cs550.pa2.Peer - Please enter the file you want to download:
+2018-05-27 22:35:04,183 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8889 as neighbor
+2018-05-27 22:35:04,185 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8890 as neighbor
+2018-05-27 22:35:04,186 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8891 as neighbor
+2018-05-27 22:35:04,186 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8892 as neighbor
+2018-05-27 22:35:04,186 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8893 as neighbor
+2018-05-27 22:35:04,186 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8894 as neighbor
+2018-05-27 22:35:04,186 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8895 as neighbor
+2018-05-27 22:35:04,186 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8896 as neighbor
+2018-05-27 22:35:04,187 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8897 as neighbor
+2018-05-27 22:35:04,187 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8898 as neighbor
+2018-05-27 22:35:04,187 [main] INFO  com.iit.cs550.pa2.Peer - peer dir: D:\Users\kyao4\workspace\cs550\pa2\peer8888 
+working dir: D:\Users\kyao4\workspace\cs550
+2018-05-27 22:35:04,188 [main] INFO  com.iit.cs550.pa2.Peer - put file foo into file list.
+2018-05-27 22:35:04,240 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8888 listening to port 8888 for peer TCP connection
+2018-05-27 22:35:04,240 [main] INFO  com.iit.cs550.pa2.Peer - Please enter the file you want to download:
+2018-05-27 22:35:04,241 [Thread-2] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8888 listening to port 8908 for file TCP connection
+2018-05-27 22:35:11,886 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8889 added localhost:8888 as neighbor
+2018-05-27 22:35:11,889 [main] INFO  com.iit.cs550.pa2.Peer - peer dir: D:\Users\kyao4\workspace\cs550\pa2\peer8889 
+working dir: D:\Users\kyao4\workspace\cs550
+2018-05-27 22:35:11,889 [main] INFO  com.iit.cs550.pa2.Peer - put file foofoo into file list.
+2018-05-27 22:35:11,944 [Thread-2] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8889 listening to port 8909 for file TCP connection
+2018-05-27 22:35:11,945 [main] INFO  com.iit.cs550.pa2.Peer - Please enter the file you want to download:
+2018-05-27 22:35:11,944 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8889 listening to port 8889 for peer TCP connection
+2018-05-27 22:35:22,608 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8889
+2018-05-27 22:35:22,609 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Instantiate PeerServer class, client IP and port 127.0.0.1:13170
+2018-05-27 22:35:22,610 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - read new line from socket:bfc8f7a8-52b1-4707-a21f-772910e07f25:q:8888:3
+2018-05-27 22:35:22,611 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - messageid bfc8f7a8-52b1-4707-a21f-772910e07f25 upstream 127.0.0.1:8888
+2018-05-27 22:35:22,611 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - received query message
+2018-05-27 22:35:22,611 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - found file, send queryhit message
+2018-05-27 22:35:22,617 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:35:22,617 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Instantiate PeerServer class, client IP and port 127.0.0.1:13172
+2018-05-27 22:35:22,619 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - read new line from socket:bfc8f7a8-52b1-4707-a21f-772910e07f25:h:8889:6
+2018-05-27 22:35:22,620 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - establish TCP connection to target peer.
+2018-05-27 22:35:22,620 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Instantiate PeerServer class, client IP and port 127.0.0.1:13173
+2018-05-27 22:35:22,621 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - read new line from socket:bfc8f7a8-52b1-4707-a21f-772910e07f25:q:8888:2
+2018-05-27 22:35:22,622 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - messageid bfc8f7a8-52b1-4707-a21f-772910e07f25 upstream 127.0.0.1:8888
+2018-05-27 22:35:22,622 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - received query message
+2018-05-27 22:35:22,623 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:35:22,624 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:35:22,625 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Instantiate PeerServer class, client IP and port 127.0.0.1:13175
+2018-05-27 22:35:22,622 [pool-3-thread-1] INFO  com.iit.cs550.pa2.Peer - Received file TCP connection
+2018-05-27 22:35:22,626 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - read new line from socket:bfc8f7a8-52b1-4707-a21f-772910e07f25:q:8888:1
+2018-05-27 22:35:22,627 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - Found query meessge with ID bfc8f7a8-52b1-4707-a21f-772910e07f25, drop message.
+2018-05-27 22:35:23,611 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8890
+2018-05-27 22:35:23,628 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:35:24,616 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8891
+2018-05-27 22:35:24,636 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:35:25,618 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8892
+2018-05-27 22:35:25,642 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:35:26,631 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8893
+2018-05-27 22:35:26,646 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:35:27,635 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8894
+2018-05-27 22:35:27,650 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:35:28,640 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8895
+2018-05-27 22:35:28,653 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:35:29,644 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8896
+2018-05-27 22:35:29,657 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:35:30,649 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8897
+2018-05-27 22:35:30,662 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:35:31,664 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8898
+2018-05-27 22:35:31,664 [main] INFO  com.iit.cs550.pa2.Peer - Please enter the file you want to download:
+2018-05-27 22:37:33,406 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8889 as neighbor
+2018-05-27 22:37:33,408 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8890 as neighbor
+2018-05-27 22:37:33,409 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8891 as neighbor
+2018-05-27 22:37:33,409 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8892 as neighbor
+2018-05-27 22:37:33,409 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8893 as neighbor
+2018-05-27 22:37:33,409 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8894 as neighbor
+2018-05-27 22:37:33,409 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8895 as neighbor
+2018-05-27 22:37:33,409 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8896 as neighbor
+2018-05-27 22:37:33,409 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8897 as neighbor
+2018-05-27 22:37:33,410 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8898 as neighbor
+2018-05-27 22:37:33,410 [main] INFO  com.iit.cs550.pa2.Peer - peer dir: D:\Users\kyao4\workspace\cs550\pa2\peer8888 
+working dir: D:\Users\kyao4\workspace\cs550
+2018-05-27 22:37:33,411 [main] INFO  com.iit.cs550.pa2.Peer - put file foo into file list.
+2018-05-27 22:37:33,486 [main] INFO  com.iit.cs550.pa2.Peer - Please enter the file you want to download:
+2018-05-27 22:37:33,486 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8888 listening to port 8888 for peer TCP connection
+2018-05-27 22:37:33,486 [Thread-2] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8888 listening to port 8908 for file TCP connection
+2018-05-27 22:37:40,403 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8889 added localhost:8888 as neighbor
+2018-05-27 22:37:40,405 [main] INFO  com.iit.cs550.pa2.Peer - peer dir: D:\Users\kyao4\workspace\cs550\pa2\peer8889 
+working dir: D:\Users\kyao4\workspace\cs550
+2018-05-27 22:37:40,406 [main] INFO  com.iit.cs550.pa2.Peer - put file foofoo into file list.
+2018-05-27 22:37:40,455 [main] INFO  com.iit.cs550.pa2.Peer - Please enter the file you want to download:
+2018-05-27 22:37:40,456 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8889 listening to port 8889 for peer TCP connection
+2018-05-27 22:37:40,456 [Thread-2] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8889 listening to port 8909 for file TCP connection
+2018-05-27 22:37:47,945 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8889
+2018-05-27 22:37:47,947 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Instantiate PeerServer class, client IP and port 127.0.0.1:13338
+2018-05-27 22:37:47,948 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - read new line from socket:31275b38-4149-495c-bc7e-692704ea3c6e:q:8888:3
+2018-05-27 22:37:47,949 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - messageid 31275b38-4149-495c-bc7e-692704ea3c6e upstream 127.0.0.1:8888
+2018-05-27 22:37:47,949 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - received query message
+2018-05-27 22:37:47,949 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - found file, send queryhit message
+2018-05-27 22:37:47,955 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:37:47,956 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Instantiate PeerServer class, client IP and port 127.0.0.1:13340
+2018-05-27 22:37:47,958 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Instantiate PeerServer class, client IP and port 127.0.0.1:13341
+2018-05-27 22:37:47,957 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - read new line from socket:31275b38-4149-495c-bc7e-692704ea3c6e:h:8889:6
+2018-05-27 22:37:47,958 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - establish TCP connection to target peer.
+2018-05-27 22:37:47,959 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - read new line from socket:31275b38-4149-495c-bc7e-692704ea3c6e:q:8888:2
+2018-05-27 22:37:47,960 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - messageid 31275b38-4149-495c-bc7e-692704ea3c6e upstream 127.0.0.1:8888
+2018-05-27 22:37:47,960 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - received query message
+2018-05-27 22:37:47,960 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:37:47,961 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - receiving file and writing file to path \D:\Users\kyao4\workspace\cs550\pa2\peer8888\foofoo
+2018-05-27 22:37:47,960 [pool-3-thread-1] INFO  com.iit.cs550.pa2.Peer - Received file TCP connection
+2018-05-27 22:37:47,961 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:37:47,962 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Instantiate PeerServer class, client IP and port 127.0.0.1:13343
+2018-05-27 22:37:47,963 [pool-2-thread-1] INFO  com.iit.cs550.pa2.Peer - finished download file from peer 127.0.0.1:8909
+2018-05-27 22:37:47,963 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - read new line from socket:31275b38-4149-495c-bc7e-692704ea3c6e:q:8888:1
+2018-05-27 22:37:47,964 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - Found query meessge with ID 31275b38-4149-495c-bc7e-692704ea3c6e, drop message.
+2018-05-27 22:37:48,950 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8890
+2018-05-27 22:37:48,967 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:37:49,957 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8891
+2018-05-27 22:37:49,972 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:37:50,961 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8892
+2018-05-27 22:37:50,976 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:37:51,964 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8893
+2018-05-27 22:37:51,982 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:37:52,968 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8894
+2018-05-27 22:37:52,987 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:37:53,970 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8895
+2018-05-27 22:37:53,990 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:37:54,971 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8896
+2018-05-27 22:37:54,994 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:37:55,976 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8897
+2018-05-27 22:37:56,000 [pool-2-thread-2] INFO  com.iit.cs550.pa2.Peer - ttl >= 0, forward query message
+2018-05-27 22:37:56,979 [main] INFO  com.iit.cs550.pa2.Peer - send message to peer localhost:8898
+2018-05-27 22:37:56,979 [main] INFO  com.iit.cs550.pa2.Peer - Please enter the file you want to download:
+2018-05-27 22:38:12,848 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8889 as neighbor
+2018-05-27 22:38:12,850 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8890 as neighbor
+2018-05-27 22:38:12,850 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8891 as neighbor
+2018-05-27 22:38:12,850 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8892 as neighbor
+2018-05-27 22:38:12,850 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8893 as neighbor
+2018-05-27 22:38:12,851 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8894 as neighbor
+2018-05-27 22:38:12,851 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8895 as neighbor
+2018-05-27 22:38:12,851 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8896 as neighbor
+2018-05-27 22:38:12,851 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8897 as neighbor
+2018-05-27 22:38:12,851 [main] INFO  com.iit.cs550.pa2.Peer - localhost:8888 added localhost:8898 as neighbor
+2018-05-27 22:38:12,851 [main] INFO  com.iit.cs550.pa2.Peer - peer dir: D:\Users\kyao4\workspace\cs550\pa2\peer8888 
+working dir: D:\Users\kyao4\workspace\cs550
+2018-05-27 22:38:12,852 [main] INFO  com.iit.cs550.pa2.Peer - put file foo into file list.
+2018-05-27 22:38:12,852 [main] INFO  com.iit.cs550.pa2.Peer - put file foofoo into file list.
+2018-05-27 22:38:12,904 [main] INFO  com.iit.cs550.pa2.Peer - Please enter the file you want to download:
+2018-05-27 22:38:12,904 [Thread-2] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8888 listening to port 8908 for file TCP connection
+2018-05-27 22:38:12,904 [Thread-1] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8888 listening to port 8888 for peer TCP connection
+2018-05-27 22:38:16,772 [main] INFO  com.iit.cs550.pa2.Peer - file foofoo exists
+2018-05-27 22:38:16,909 [main] INFO  com.iit.cs550.pa2.Peer - Peer localhost:8888, found file foofoo on local machine, stop sending message.
+2018-05-27 22:38:16,909 [main] INFO  com.iit.cs550.pa2.Peer - Please enter the file you want to download:

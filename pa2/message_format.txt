@@ -1,0 +1,18 @@
+query message
+header
+messageId:UUID(long * 2 16 bytes) + operation(byte 0x1) + peerId(port number)(short 2 bytes) + TTL(byte 1 byte)
+body
+filename (String 256 len)
+
+
+queryhit message
+header
+messageId:UUID(long * 2 16 bytes) + operation(byte 0x2)+ peerId(port number)(short 2 bytes) + TTL(byte 1 byte)
+body
+fileanme(String) + port number(short 2 bytes) + host address(String ) this is target IP and port
+
+ttl = 3
+
+
+file tcp
+filename
