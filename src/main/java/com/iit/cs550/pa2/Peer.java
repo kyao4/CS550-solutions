@@ -417,7 +417,7 @@ class FileServer implements Runnable {
 	}
 }
 
-
+//cache MAX_ENTRIES number of messages, if it exceeds this number, remove that message id. from java8 doc
 class CachedLinkedHashMap<K, V> extends LinkedHashMap<K, V> {
 
 	/**
